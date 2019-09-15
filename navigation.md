@@ -2,7 +2,7 @@
 
 <!--
   -- Default theme
-  -- (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)
+  -- (Read: http://wyp110lq.github.io/mdwiki/#!customizing.md#Theme_chooser)
   -- [gimmick:theme](flatly)
   * ### 人生
   * [人生十项](1life/notfound.md)
@@ -17,7 +17,7 @@
 
 [gimmick:theme](flatly)
 
-[原创]()
+[环境管理]()
 
   * ### 2018（本站）
   * [使用 MDWiki 搭建个人轻博客、知识库、或文档中心](blog/4article/MDWiki.md)
@@ -47,7 +47,7 @@
   * [脑图：人性---趋乐避苦的分解](http://naotu.baidu.com/file/efe82902053853b7f7d868c3d3218859?token=bde38cd6b4d8b6ec%EF%BB%BF%EF%BB%BF)
   
 
-[笔记]()
+[数据库管理]()
 
   * ###  工作笔记
  * [tfs-db-datasize-analysis](blog/0learn/note-work/tfs%2Ddb%2Ddatasize%2Danalysis.md)
@@ -71,7 +71,7 @@
   * [人生十项 模板](blog/1life/人生十项-模板.md)
   * [关系实践（两性关系、夫妻关系、亲子关系、原生家庭）](blog/1life/relationship.md)
   
-[生活]()
+[Jenkins]()
 
   * ### 生活中的个人笔记
   * [2018年笔记](blog/0learn/note-personal/2017.md) 
@@ -83,7 +83,7 @@
   * [影视列表](blog/1life/movie.md)
   * [工具或小技巧](blog/1life/tools.md)
 
-[读书]()
+[自动化工具]()
 
   * ### 书籍
   * [新书列表、读书计划、在读书籍、已经读书籍](blog/2book/books.md)
@@ -94,7 +94,7 @@
   * [用户故事地图读书笔记](blog/2book/user-story-remark.md)
   * [PMI ACP 指定教材 电子版](blog/2book/acp-ebook.md)
   
-[游戏]()
+[团队管理]()
 
   * [xbox One 游戏主机的一切](blog/3games/xbox1s.md)  
   * [串流游戏方案](blog/3games/streamgame.md)
@@ -102,7 +102,7 @@
   * [xbox360 主机游戏](blog/3games/xbox360.md)  
 
 
-[关于我]()
+[中间件]()
   
   * [新技术、新产品、新思维、一切新的东西](blog/9about/fresh.md)
   * [我的疑问](blog/9about/qa.md)
