@@ -24,7 +24,7 @@
   * ### Jenkins地址
   * [Jenkins地址](yss/0learn/note-personal/2017.md) 
   * ### Jenkins搭建
-  * [工具或小技巧](yss/1life/tools.md)
+  * [工具或小技巧](yss/1tools/tools.md)
 
 [自动化工具]()
 
