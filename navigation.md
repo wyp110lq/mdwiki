@@ -16,7 +16,7 @@
 [数据库管理]()
 
   * ### oracle数据泵
-  * [oracle导库](yss/6oracle/markdown/dmp.md) 
+  * [impdp导入](yss/6oracle/markdown/impdp.md) 
 
 [Jenkins]()
 
