@@ -16,7 +16,7 @@
 [数据库管理]()
 
   * ### oracle数据泵
-  * [impdp导入](yss/6oracle/markdown/impdp.md) 
+  * [impdp导入](yss/6oracle/markdown/impdp.md)
   * [expdp导入](yss/6oracle/markdown/expdp.md) 
 
 
@@ -25,10 +25,10 @@
   * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
   * [工具或小技巧](yss/1tools/tools.md)
 
-[自动化工具]()
+[培训知识]()
 
-  * ### 工具
-  * [工具](yss/1tools/tools.md) 
+  * ### 培训内容
+  * [正则表达式](yss/8training/markdown/regular.md) 
 
 [团队管理]()
 
