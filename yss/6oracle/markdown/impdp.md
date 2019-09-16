@@ -2,7 +2,7 @@
 
 ## 1登录系统
 
-登录linux系统上的oracle数据库，默认数据泵导出的文件是放在/home/oracle/dmp下面。
+登录linux系统上的oracle数据库，默认数据泵导入的文件是放在/home/oracle/dmp下面。
 
 ## 2切换oracle用户环境变量
 

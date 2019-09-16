@@ -17,6 +17,8 @@
 
   * ### oracle数据泵
   * [impdp导入](yss/6oracle/markdown/impdp.md) 
+  * [expdp导入](yss/6oracle/markdown/expdp.md) 
+
 
 [Jenkins]()
 
