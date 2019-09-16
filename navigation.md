@@ -11,16 +11,13 @@
 [环境管理]()
 
   * ### 主干
-  * [环境管理](yss/5jenkins/markdown/jenkins.md) 
-  * [工具或小技巧](yss/1tools/tools.md)
-
+  * [环境管理](yss/7environment/markdown/environment.md) 
 
 [数据库管理]()
 
-  * ### ORACLE
-  * [oracle管理](yss/5jenkins/markdown/jenkins.md) 
-  * [工具或小技巧](yss/1tools/tools.md)
-  
+  * ### oracle数据泵
+  * [oracle导库](yss/6oracle/markdown/dmp.md) 
+
 [Jenkins]()
 
   * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
@@ -29,13 +26,9 @@
 [自动化工具]()
 
   * ### 工具
-  * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
-  * [工具或小技巧](yss/1tools/tools.md)
+  * [Jenkins地址](yss/1tools/tools.md) 
 
 [团队管理]()
-
-  * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
-  * [工具或小技巧](yss/1tools/tools.md)
 
 
 [中间件]()
