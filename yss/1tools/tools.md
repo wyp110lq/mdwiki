@@ -44,6 +44,3 @@ http://doc.yeekit.com/index.html
 1. 输入法不见了：运行->ctfmon
 
 1. 修改默认系统语言为中文Winsows10、Server 2016：操作中心-> 设置 -> 时间和语言 -> 区域和语言 -> 添加 -> 选择 Chinese
-
-## 个人喜欢的小玩意
-
