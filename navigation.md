@@ -41,7 +41,7 @@
 
 [中间件]()
   
-  * [新技术、新产品、新思维、一切新的东西](yss/9about/fresh.md)
+  * [was安装部署](yss/4was/markdown/was.md)
 
 [gimmick:themechooser](选择皮肤)
 
