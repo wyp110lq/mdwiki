@@ -23,22 +23,18 @@
   
 [Jenkins]()
 
-  <!-- * ### Jenkins地址 -->
   * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
-  <!-- * ### Jenkins搭建 -->
   * [工具或小技巧](yss/1tools/tools.md)
 
 [自动化工具]()
 
   * ### 工具
   * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
-  <!-- * ### Jenkins搭建 -->
   * [工具或小技巧](yss/1tools/tools.md)
 
 [团队管理]()
 
   * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
-  <!-- * ### Jenkins搭建 -->
   * [工具或小技巧](yss/1tools/tools.md)
 
 
