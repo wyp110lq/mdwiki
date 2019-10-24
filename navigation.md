@@ -1,4 +1,4 @@
-#白杨的wiki
+#白杨
 
 <!--
   -- Default theme
