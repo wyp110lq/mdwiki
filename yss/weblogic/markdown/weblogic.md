@@ -1,102 +1,102 @@
 # 新一代托管系统_weblogic单机部署手册
 
 ## 1. 安装weblogic
-*下载weblogic安装包
+* 下载weblogic安装包
 
 ![avatar](../images/6.png)
 
-*执行安装（前提系统已安装jdk）
+* 执行安装（前提系统已安装jdk）
 
 ```
 [root@localhost sofaware]# java -jar wls1036_generic.jar
 ```
 ![avatar](../images/11.png)
 
-*下一步，根据需要选择安装目录。
+* 下一步，根据需要选择安装目录。
 
 ![avatar](../images/12.png)
 
-*去除邮件通知，点击确定并下一步
+* 去除邮件通知，点击确定并下一步
 
 ![avatar](../images/13.png)
 
-*继续
+* 继续
 
 ![avatar](../images/14.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/15.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/16.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/17.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/18.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/18.png)
 
-*安装中
+* 安装中
 
 ![avatar](../images/19.png)
 
-*安装完成，点击完成
+* 安装完成，点击完成
 
 ![avatar](../images/20.png)
 
 ## 2. 安装weblogic域
 
-*切换至域安装目录
+* 切换至域安装目录
 
 ```
 [root@localhost sofaware]# cd /home/Oracle/Middleware/wlserver_10.3/common/bin/
 ```
-*执行安装命令
+* 执行安装命令
 
 ```
 [root@localhost bin]# ./config.sh
 ```
 ![avatar](../images/21.png)
 
-*下一步
+* 下一步
 
 ![avatar](../images/22.png)
 
-*指定域名，和域安装路径，下一步。
+* 指定域名，和域安装路径，下一步。
 
 ![avatar](../images/23.png)
 
-*输入weblogci登录用户名和密码，下一步。
+* 输入weblogci登录用户名和密码，下一步。
 
 ![avatar](../images/24.png)
 
-*选择“生产模式”和对应的jdk，下一步。
+* 选择“生产模式”和对应的jdk，下一步。
 
 ![avatar](../images/25.png)
 
 
-*选择“管理服务器”，下一步。
+* 选择“管理服务器”，下一步。
 
 ![avatar](../images/26.png)
 
-*输入名称，端口号，下一步。
+* 输入名称，端口号，下一步。
 
 ![avatar](../images/27.png)
 
 
-*点击创建
+* 点击创建
 
 ![avatar](../images/28.png)
 
-*域创建成功，点击完成。
+* 域创建成功，点击完成。
 
 ![avatar](../images/29.png)
 
@@ -105,7 +105,7 @@
 
 ## 3. 配置域文件参数
 
-*切换到域的安装目录下的bin目录：
+* 切换到域的安装目录下的bin目录：
 ```
 /home/Oracle/Middleware/user_projects/domains/base_domain7001/bin/
 ```
@@ -199,17 +199,17 @@ JVM参数：
 
 ### 3.3启动
 
-切换到域目录下的bin目录：启动
+* 切换到域目录下的bin目录：启动
 ```
 [root@localhost bin]# nohup ./startWebLogic.sh &
 ```
-可用如下命令查看日志信息：
+* 可用如下命令查看日志信息：
 ```
 tail -f nohup.out
 ```
 ![avatar](../images/34.png)
 
-打开控制台：输入用户密码登录
+* 打开控制台：输入用户密码登录
 ![avatar](../images/35.png)
 
 
@@ -217,45 +217,45 @@ tail -f nohup.out
 
 ### 4.1部署托管系统
 
-在服务器放置好acs代码和sofa_home配置目录
+* 在服务器放置好acs代码和sofa_home配置目录
 
 ![avatar](../images/36.png)
 
 
-*登录控制台：进入部署页，点击安装。
+* 登录控制台：进入部署页，点击安装。
 
 ![avatar](../images/37.png)
 
-*选择存放路径，勾选acs目录，下一步：
+* 选择存放路径，勾选acs目录，下一步：
 
 ![avatar](../images/38.png)
 
-*下一步：
+* 下一步：
 
 ![avatar](../images/39.png)
 
-*下一步：
+* 下一步：
 
 ![avatar](../images/40.png)
 
 
-*点击完成
+* 点击完成
 
 ![avatar](../images/41.png)
 
-*部署成功
+* 部署成功
 
 ![avatar](../images/42.png)
 
-*为所有请求提供服务
+* 为所有请求提供服务
 
 ![avatar](../images/43.png)
 
-*点击是
+* 点击是
 
 ![avatar](../images/44.png)
 
-*能正常打开控制台，代表系统部署成功。
+* 能正常打开控制台，代表系统部署成功。
 
 ![avatar](../images/45.png)
 
@@ -266,23 +266,23 @@ tail -f nohup.out
 
 
 ## 5.卸载weblogic
-*切换到卸载目录
+* 切换到卸载目录
 ```
 cd /home/Oracle/Middleware/wlserver_10.3/uninstall/
 ```
 
 ![avatar](../images/7.png)
 
-*执行卸载
+* 执行卸载
 ```
 ./uninstall.sh
 ```
 ![avatar](../images/8.png)
 
-*下一步，
+* 下一步，
 
 ![avatar](../images/9.png)
 
-*提示卸载完成，点击完成。
+* 提示卸载完成，点击完成。
 
 ![avatar](../images/10.png)
