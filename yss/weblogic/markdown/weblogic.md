@@ -105,12 +105,12 @@
 
 ## 3. 配置域文件参数
 
+### 3.1编辑startWebLogic.sh文件
+
 * 切换到域的安装目录下的bin目录：
 ```
 /home/Oracle/Middleware/user_projects/domains/base_domain7001/bin/
 ```
-
-### 3.1编辑startWebLogic.sh文件
 
 ```
 [root@localhost bin]# vi startWebLogic.sh
@@ -210,6 +210,7 @@ tail -f nohup.out
 ![avatar](../images/34.png)
 
 * 打开控制台：输入用户密码登录
+
 ![avatar](../images/35.png)
 
 
@@ -217,45 +218,46 @@ tail -f nohup.out
 
 ### 4.1部署托管系统
 
-* 在服务器放置好acs代码和sofa_home配置目录
+* <font color=red size=3>在服务器放置好acs代码和sofa_home配置目录</font>
 
 ![avatar](../images/36.png)
 
 
-* 登录控制台：进入部署页，点击安装。
+* <font color=red size=3>登录控制台：进入部署页，点击安装。</font>
 
 ![avatar](../images/37.png)
 
-* 选择存放路径，勾选acs目录，下一步：
+
+* <font color=red size=3>选择存放路径，勾选acs目录，下一步</font>
 
 ![avatar](../images/38.png)
 
-* 下一步：
+* <font color=red size=3>下一步:</font>
+
 
 ![avatar](../images/39.png)
 
-* 下一步：
+* <font color=red size=3>下一步:</font>
 
 ![avatar](../images/40.png)
 
-
-* 点击完成
+* <font color=red size=3>点击完成</font>
 
 ![avatar](../images/41.png)
 
-* 部署成功
+* <font color=red size=3>部署成功</font>
 
 ![avatar](../images/42.png)
 
-* 为所有请求提供服务
+* <font color=red size=3>为所有请求提供服务</font>
 
 ![avatar](../images/43.png)
 
-* 点击是
+* <font color=red size=3>点击是</font>
 
 ![avatar](../images/44.png)
 
-* 能正常打开控制台，代表系统部署成功。
+* <font color=red size=3>能正常打开控制台，代表系统部署成功。</font>
 
 ![avatar](../images/45.png)
 
@@ -267,6 +269,7 @@ tail -f nohup.out
 
 ## 5.卸载weblogic
 * 切换到卸载目录
+
 ```
 cd /home/Oracle/Middleware/wlserver_10.3/uninstall/
 ```
@@ -274,6 +277,7 @@ cd /home/Oracle/Middleware/wlserver_10.3/uninstall/
 ![avatar](../images/7.png)
 
 * 执行卸载
+
 ```
 ./uninstall.sh
 ```
