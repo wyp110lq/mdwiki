@@ -37,6 +37,7 @@
   
   * [中间件介绍](yss/weblogic/markdown/middleware.md)
   * [was安装部署](yss/4was/markdown/was.md)
+  * [welogic安装部署](yss/weblogic/markdown/weblogic.md)
 
 [gimmick:themechooser](选择皮肤)
 
