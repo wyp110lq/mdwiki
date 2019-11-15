@@ -274,49 +274,40 @@ Websphere默认端口9060，Weblogic端口自己创建。
 
 ## 7、升级JDK
 
-Was中的jdk是自带的
+### 7.1 Was中的jdk是自带的
 路径：/home/IBM/WebSphere/AppServer/java
 
 ![avatar](../images/29.png)
 
+### 7.2 下载jdk1.8的安装包。利用repository.xml安装。
 
-增加新JDK配置文件:
-路径：
-/home/IBM/WebSphere/AppServer/properties/sdk
+如果直接用sun的jdk，业务系统会启动失败。
 
-由于该版本是was8.5.5.14,会自动升级jdk1.8
+### 7.3 其他
+cd /home/IBM/WebSphere/AppServer/bin
 
-![avatar](../images/30.png)
+// 列出当前可用SDK
+
+./managesdk.sh -listAvailable
+
+// 查询新概要文件创建是用的哪个版本的SDK
+./managesdk.sh -getNewProfileDefault
+
+// 设置新概要文件创建SDK  [用1.6的jdk创建]
+./managesdk.sh -setNewProfileDefault -sdkName 1.6_64
+
+// 设置新概要文件创建SDK  [用1.8的jdk创建]
+./managesdk.sh -setNewProfileDefault -sdkName 1.8_64
 
 
-现在想要jdk1.6，改如何配置
+//列出所有概要文件所使用的sdk
+[root@localhost bin]# ./managesdk.sh -listEnabledProfileAll
 
-cp 1.8_64_bundled.properties  1.6_64.properties 
+### 7.4 注意
 
-vi 1.6_64.properties
+原was（was8.5.5.0）自带jdk1.6的只能直接升级到8.5.5.13，升级到8.5.5.13之后jdk还是原有的jdk1.6,需要重新安装was支持的jdk1.8
 
-内容如下：
-
-com.ibm.websphere.sdk.version.1.6_64=1.6
-
-com.ibm.websphere.sdk.bits.1.6_64=64
-
-com.ibm.websphere.sdk.location.1.6_64=$
-{WAS_INSTALL_ROOT}/java1.6
-
-com.ibm.websphere.sdk.platform.1.6_64=linux
-
-com.ibm.websphere.sdk.architecture.1.6_64=x86_64
-
-com.ibm.websphere.sdk.nativeLibPath.1.6_64=${WAS_INSTALL_ROOT}/lib/native/linux/x86_64/
-
-![avatar](../images/31.png)
-
-登陆was控制台就可以看到多了一个jdk1.6的配置，可以选择指定的jdk版本作为缺省值。
-
-![avatar](../images/32.png)
-
-注意：原was（was8.5.5.0）自带jdk1.6的只能直接升级到8.5.5.13，升级到8.5.5.13之后jdk自动升级为1.8版本了
+8.5.5.0升级到8.5.5.14才会直接把jdk升级到1.8。
 
 was补丁下载地址：
 http://www-01.ibm.com/support/docview.wss?rs=180&context=SSEQTP&uid=swg27004980#ver85_0
