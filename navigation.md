@@ -8,10 +8,6 @@
 
 [gimmick:theme](flatly)
 
-[环境管理]()
-
-  * ### 主干
-  * [环境管理](yss/7environment/markdown/environment.md) 
 
 [数据库管理]()
 
@@ -25,13 +21,6 @@
   * [Jenkins知识](yss/5jenkins/markdown/jenkins.md) 
   * [工具或小技巧](yss/1tools/tools.md)
 
-[培训知识]()
-
-  * ### 培训内容
-  * [正则表达式](yss/8training/markdown/regular.md) 
-
-[团队管理]()
-
 
 [中间件]()
   
@@ -40,6 +29,12 @@
   * [welogic安装部署](yss/weblogic/markdown/weblogic.md)
 
 [gimmick:themechooser](选择皮肤)
+
+[小工具]()
+* [jsonpath解释器](http://www.atoolbox.net/Tool.php?Id=792)
+* [在线正则表达式](https://tool.oschina.net/regex/)
+
+[Java知识]()
 
 <!-- [在线编辑](http://prose.io/#liminany/m) -->
 

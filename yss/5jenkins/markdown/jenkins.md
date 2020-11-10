@@ -1,24 +1,25 @@
 # 1.分布式部署项目
-##主节点
+
+## 主节点
 master端（jenkins主服务）
-##从节点
+## 从节点
 从节点服务器不需要安装jenkins，只需要运行一个slave节点服务，构建事件的分发由master端（jenkins主服务）来执行。
 
 
-#2.开发代码编译、SonarQube扫描
+# 2.开发代码编译、SonarQube扫描
 
 maven、svn、git、jdk
 
-#3.部署jar或war包至测试环境
+# 3.部署jar或war包至测试环境
 
 批处理脚本(windows)、shell脚本(linux)
 
-#4.执行接口测试
-###4.1 ant+jmeter+git+groovy
+# 4.执行接口测试
+### 4.1 ant+jmeter+git+groovy
 
-###4.2 MultiJob Phase配置jmeter测试脚本
+### 4.2 MultiJob Phase配置jmeter测试脚本
 
-#5.oracle数据库操作
+# 5.oracle数据库操作
 
 5.1同步开发库
 
@@ -27,7 +28,7 @@ maven、svn、git、jdk
 5.3其他oracle操作，比如：创建用户、授权等基础操作
 
 
-#6.电子邮件模块
+# 6.电子邮件模块
 
 groovy脚本模板：
 
