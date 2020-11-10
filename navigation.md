@@ -28,13 +28,14 @@
   * [was安装部署](yss/4was/markdown/was.md)
   * [welogic安装部署](yss/weblogic/markdown/weblogic.md)
 
-[gimmick:themechooser](选择皮肤)
-
 [小工具]()
-* [jsonpath解释器](http://www.atoolbox.net/Tool.php?Id=792)
-* [在线正则表达式](https://tool.oschina.net/regex/)
+
+  * [jsonpath解释器](http://www.atoolbox.net/Tool.php?Id=792)
+   * [在线正则表达式](https://tool.oschina.net/regex/)
 
 [Java知识]()
+
+[gimmick:themechooser](选择皮肤)
 
 <!-- [在线编辑](http://prose.io/#liminany/m) -->
 
