@@ -15,14 +15,14 @@
 
 [数据库管理]()
 
-  * ### oracle数据泵
+  * ### oracle
   * [impdp导入](yss/6oracle/markdown/impdp.md)
   * [expdp导入](yss/6oracle/markdown/expdp.md) 
-
+  * ### mysql
 
 [Jenkins]()
 
-  * [Jenkins地址](yss/5jenkins/markdown/jenkins.md) 
+  * [Jenkins知识](yss/5jenkins/markdown/jenkins.md) 
   * [工具或小技巧](yss/1tools/tools.md)
 
 [培训知识]()
